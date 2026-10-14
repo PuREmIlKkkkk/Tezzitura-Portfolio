@@ -34,9 +34,3 @@ These files are not intended to form a standalone runnable application. They are
 - Elo计算逻辑的Jest单元测试 / Jest unit tests for Elo calculation
 - 胜 / 平 / 负场景覆盖 / Win, draw, and loss scenarios
 - Repository Mock 与保存逻辑验证 / Repository mocking and persistence verification
-
-## 说明 / Note
-
-本目录仅展示精选代码片段，不包含完整项目源码。
-
-This directory contains selected code excerpts rather than the complete project source code.
