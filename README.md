@@ -18,12 +18,6 @@ The `selected-code/` directory contains representative excerpts from the origina
 
 ---
 
-## 项目截图 / Screenshots
-
-项目截图将展示在 `screenshots/` 目录中。
-
----
-
 ## 部署架构 / Deployment Architecture
 
 下图展示了 Tezzitura 在生产环境中的主要服务组成、网络流向与数据存储结构。
