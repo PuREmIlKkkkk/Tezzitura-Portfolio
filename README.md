@@ -34,7 +34,7 @@ The diagram below shows the main production services, network flow, and persiste
 
 This repository is intended for portfolio and recruiting purposes.
 
-由于 Tezzitura 原项目为团队协作开发项目，本仓库不会公开完整项目源码，仅展示我负责或参与开发的部分代表性代码摘录、项目说明、架构和截图。
+由于 Tezzitura 原项目为团队协作开发项目，本仓库不会公开完整项目源码，仅展示我负责或参与开发的部分代表性代码摘录。
 
 Because the original Tezzitura application was developed as a team project, this repository does not contain the complete project source code. It only includes selected excerpts from code I contributed to, along with project documentation, architecture, and screenshots.
 
