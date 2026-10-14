@@ -62,6 +62,6 @@ English:
 
 ## 说明 / Note
 
-本目录仅展示精选代码片段，不包含完整课程项目源码。
+本目录仅展示精选代码片段，不包含完整项目源码。
 
-This directory contains selected code excerpts rather than the complete course project source code.
+This directory contains selected code excerpts rather than the complete project source code.
