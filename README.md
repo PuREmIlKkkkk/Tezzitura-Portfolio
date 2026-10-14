@@ -26,40 +26,11 @@ The `selected-code/` directory contains representative excerpts from the origina
 
 ## 部署架构 / Deployment Architecture
 
-```text
-                         Internet
-                            |
-                            v
-                    https://tezzitura.dev
-                            |
-                            v
-                          Caddy
-                    HTTPS / Reverse Proxy
-                       /           \
-                      /             \
-                     v               v
-               Next.js            NestJS
-               Frontend           Backend
-                                     |
-                         -------------------------
-                         |                       |
-                         v                       v
-                    PostgreSQL                 Redis
-                    Persistent               Pub/Sub
-                     Storage
-```
+下图展示了 Tezzitura 在生产环境中的主要服务组成、网络流向与数据存储结构。
 
-生产环境中的所有服务均通过 Docker Compose 运行。
+The diagram below shows the main production services, network flow, and persistent storage architecture of Tezzitura.
 
-All production services run through Docker Compose.
-
-Caddy 是唯一直接接收 Web 流量的应用入口，负责 HTTPS 与反向代理。
-
-Caddy acts as the main public web entry point and handles HTTPS termination and reverse proxying.
-
-PostgreSQL、Redis、Frontend 和 Backend 均运行在 Docker 内部网络中，不直接向公网暴露业务端口。
-
-PostgreSQL, Redis, the frontend, and the backend run inside the Docker network without directly exposing their service ports to the public internet.
+![Tezzitura Production Architecture](architecture/tezzitura-architecture.png)
 
 ---
 
