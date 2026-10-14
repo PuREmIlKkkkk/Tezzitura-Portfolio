@@ -12,53 +12,28 @@ These files are not intended to form a standalone runnable application. They are
 
 ### `matchmaking.ts`
 
-中文：
-- 实时双人匹配
-- 好友互选匹配
-- 匹配超时处理
-- 玩家断线后的等待队列清理
-
-English:
-- Real-time two-player matchmaking
-- Mutual-friend matchmaking
-- Matchmaking timeout handling
-- Disconnect cleanup
+- 实时双人匹配 / Real-time two-player matchmaking
+- 好友互选匹配 / Mutual-friend matchmaking
+- 匹配超时处理 / Matchmaking timeout handling
+- 玩家断线后的等待队列清理 / Disconnect cleanup
 
 ### `redis-pubsub.ts`
 
-中文：
-- Redis Publisher / Subscriber 初始化
-- 游戏房间消息发布与订阅
-- Redis 消息转发至 Socket.IO 房间
-
-English:
-- Redis publisher/subscriber setup
-- Game-room message publishing and subscription
-- Forwarding Redis messages to Socket.IO rooms
+- Redis Publisher/Subscriber初始化 / Redis publisher/subscriber setup
+- 游戏房间消息发布与订阅 / Game-room message publishing and subscription
+- Redis 消息转发至 Socket.IO 房间 / Forwarding Redis messages to Socket.IO rooms
 
 ### `elo-rating.ts`
 
-中文：
-- Elo 预期胜率计算
-- 胜 / 平 / 负后的积分更新
-- 用户 Elo 数据持久化
-
-English:
-- Elo expected-score calculation
-- Rating updates for win / draw / loss
-- Persistence of updated player ratings
+- Elo预期胜率计算 / Elo expected-score calculation
+- 胜 / 平 / 负后的积分更新 / Rating updates for win / draw / loss
+- 用户Elo数据持久化 / Persistence of updated player ratings
 
 ### `elo-rating.spec.ts`
 
-中文：
-- Elo 计算逻辑的 Jest 单元测试
-- 胜 / 平 / 负场景覆盖
-- Repository Mock 与保存逻辑验证
-
-English:
-- Jest unit tests for Elo calculation
-- Win, draw, and loss scenarios
-- Repository mocking and persistence verification
+- Elo计算逻辑的Jest单元测试 / Jest unit tests for Elo calculation
+- 胜 / 平 / 负场景覆盖 / Win, draw, and loss scenarios
+- Repository Mock 与保存逻辑验证 / Repository mocking and persistence verification
 
 ## 说明 / Note
 
