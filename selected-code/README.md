@@ -10,26 +10,26 @@ These files are not intended to form a standalone runnable application. They are
 
 ## 文件说明 / Files
 
-### `matchmaking.ts`
+### [`matchmaking.ts`](selected-code/matchmaking.ts)
 
 - 实时双人匹配 / Real-time two-player matchmaking
 - 好友互选匹配 / Mutual-friend matchmaking
 - 匹配超时处理 / Matchmaking timeout handling
 - 玩家断线后的等待队列清理 / Disconnect cleanup
 
-### `redis-pubsub.ts`
+### [`redis-pubsub.ts`](selected-code/redis-pubsub.ts)
 
 - Redis Publisher/Subscriber初始化 / Redis publisher/subscriber setup
 - 游戏房间消息发布与订阅 / Game-room message publishing and subscription
 - Redis 消息转发至 Socket.IO 房间 / Forwarding Redis messages to Socket.IO rooms
 
-### `elo-rating.ts`
+### [`elo-rating.ts`](selected-code/elo-rating.ts)
 
 - Elo预期胜率计算 / Elo expected-score calculation
 - 胜 / 平 / 负后的积分更新 / Rating updates for win / draw / loss
 - 用户Elo数据持久化 / Persistence of updated player ratings
 
-### `elo-rating.spec.ts`
+### [`elo-rating.spec.ts`](selected-code/elo-rating.spec.ts)
 
 - Elo计算逻辑的Jest单元测试 / Jest unit tests for Elo calculation
 - 胜 / 平 / 负场景覆盖 / Win, draw, and loss scenarios
